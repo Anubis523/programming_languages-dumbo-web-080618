@@ -4,6 +4,8 @@ format = {}
     element.each do |language, type|
       format[language] = type
       format[language][:style] = [languages.keys[index]]
+      if
+      end
     end
   end
 format
