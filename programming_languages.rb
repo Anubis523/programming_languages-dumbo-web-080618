@@ -19,6 +19,8 @@ format = {}
       if (index == 0)
         format[language] = type
         format[language][:style] = [languages.keys[index]]
+      else
+        format[language][:style] << []
       end
     end
   end
