@@ -15,7 +15,7 @@ def reformat_languages(languages)
 #   empty
 format = {}
   languages.values.each_with_index do |element, index|
-    x.each do |language, type|
+    element.each do |language, type|
       if (index == 0)
         format[language] = type
         format[language][:style] = [languages.keys[index]]
