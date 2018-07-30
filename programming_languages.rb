@@ -4,9 +4,9 @@ format = {}
     element.each do |language, type|
       format[language] = type
       format[language][:style] = [languages.keys[index]]
-      if (format[language][:style][0] != languages.keys[index])
+      elsif (format[language][:style][0] != languages.keys[index])
         format[language][:style][1] = languages.keys[index]
-      elsif(index == 0)
+      
       end
     end
   end
