@@ -5,7 +5,7 @@ format = {}
       format[language] = type
       format[language][:style] = [languages.keys[index]]
       if ((format[language][:style].nil?) == false && index > 0)
-        format[language][:style] << 
+        format[language][:style] << languages.keys[index]
       end
     end
   end
