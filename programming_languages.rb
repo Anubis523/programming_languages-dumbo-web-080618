@@ -20,7 +20,7 @@ format = {}
         format[language] = type
         format[language][:style] = [languages.keys[index]]
       else
-        format[language][:style] << []
+        format[language][:style] << languages.keys[index]
       end
     end
   end
