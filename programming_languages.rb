@@ -4,7 +4,7 @@ format = {}
     element.each do |language, type|
       format[language] = type
       format[language][:style] = [languages.keys[index]]
-      if
+      if ((format[language][:style].nil?) == false)
       end
     end
   end
